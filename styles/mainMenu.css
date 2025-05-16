@@ -166,6 +166,13 @@ hero-section .app-bar .user-name {
     background-position: center;
 }
 
+.player-comparison {
+    background-image: url("../public/player-comparison-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media only screen and (width <= 599px) {
     .menu-item {
         width: 90dvw;

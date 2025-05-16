@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import "../styles/mainMenu.css";
 
@@ -48,6 +49,20 @@ export const MainMenu = () => {
                   <p>
                     Explore in-depth fantasy points for each match using
                     advanced filters for precise insights
+                  </p>
+                  <span>View More</span>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="/player-comparison">
+            <div className="menu-item player-comparison">
+              <div className="gradient-container">
+                <h3>Player Comparison</h3>
+                <div className="description-container">
+                  <p>
+                    Compare performance stats between players across different teams
+                    with detailed visual analysis
                   </p>
                   <span>View More</span>
                 </div>
